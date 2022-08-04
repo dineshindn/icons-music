@@ -1,5 +1,6 @@
 const login = (req, res, next) => {
     try {
+        console.log("fdsfdsf")
         const { username, password } = req.body
         
         let user = {
